@@ -71,6 +71,10 @@ app.get('/data/:zipcode', (req, res) => {
         });
 });
 
+app.get('/start', (req, res) => {
+    res.send("Server is running");
+})
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
