@@ -1,0 +1,2 @@
+name,description,address,city,region,province,postal_code,phone,fax,hours,url,latitude,longitude,distance,materials,pickup,dropoff,notes,groups,curbside,municipal,national,event_only
+"Safeway","null","2029 Airport Beach Rd","Unalaska","","AK","99692","9075814040","0","","https://shop.safeway.com/home.html","53.8852977","-166.5476468","47.6164884072276","","false","false","","","false","false","false","false"

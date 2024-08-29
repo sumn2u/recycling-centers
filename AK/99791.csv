@@ -1,0 +1,3 @@
+name,description,address,city,region,province,postal_code,phone,fax,hours,url,latitude,longitude,distance,materials,pickup,dropoff,notes,groups,curbside,municipal,national,event_only
+"USPS Post Office Box Lobby Recycling Program","US Post Office","3080 Eben Hobson St","Barrow","North Slope","AK","99723","8002758777","0","","https://www.usps.com/","70.66976","-155.14303","53.4776357053997","Catalogs; Greeting Cards; Magazines; Paper (Mixed)","false","true","","","false","false","false","false"
+"US Post Office","USPS Discarded Lobby Mail Recycling Program","3080 Eben Hobson St","Barrow","North Slope","AK","99723","0","0","","","70.66976","-155.14303","53.4776357053997","Video Game Consoles; PlayStation Consoles","false","true","","","false","false","false","false"
