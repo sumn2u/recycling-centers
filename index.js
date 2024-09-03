@@ -57,14 +57,10 @@ app.get('/data/:zipcode', (req, res) => {
                     results.push(data);
                 }
             }
-            // if (material) {
-            //     const materials = data.materials.split(';').map(item => item.trim().toLowerCase());
-            //     if (materials.some(item => item.includes(material.toLowerCase()))) {
-            //         results.push(data);
-            //     }
-            // } else {
-            //     results.push(data);
-            // }
+        })
+        .on('error', (err) => {
+            console.error('Error reading CSV file:', err);
+            res.status(500).json({ error: 'Internal server error.' });
         })
         .on('end', () => {
             res.json(results);
